@@ -2,12 +2,47 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/rules/overview"
+    "pages/rules/overview/overview",
+    "pages/statistic/overview/overview",
+    "pages/statistic/goodguy/goodguy",
+    "pages/statistic/wolf/wolf"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar" : {
+    "color" : "#000000",
+    "selectedColor" : "#ff7f50",
+    "backgroundColor" : "#ffffff",
+    "borderStyle" : "black",
+    "list" : [
+      {
+        "iconPath" : "images/tabbar/news.png",
+        "selectedIconPath" : "images/tabbar/news.png",
+        "pagePath" : "pages/index/index",
+        "text" : "动态"
+      },
+      {
+        "iconPath" : "images/tabbar/statistic.png",
+        "selectedIconPath" : "images/tabbar/statistics_selected.png",
+        "pagePath" : "pages/statistic/overview/overview",
+        "text" : "统计"
+      },
+      {
+        "iconPath" : "images/tabbar/rules.png",
+        "selectedIconPath" : "images/tabbar/rules_selected.png",
+        "pagePath" : "pages/rules/overview/overview",
+        "text" : "规则"
+      },
+      {
+        "iconPath" : "images/tabbar/userinfo.png",
+        "selectedIconPath" : "images/tabbar/userinfo.png",
+        "pagePath" : "pages/index/index",
+        "text" : "用户"
+      }
+    ]
   }
 }

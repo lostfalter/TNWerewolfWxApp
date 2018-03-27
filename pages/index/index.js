@@ -13,7 +13,7 @@ Page({
   bindViewTap: function() {
     wx.navigateTo({
       //  url: '../logs/logs'
-      url : '../rules/overview'
+      url : '../rules/overview/overview'
     })
   },
   onLoad: function () {
